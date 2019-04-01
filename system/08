@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:42:35 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 16:03:26 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# What file contains the RSA keys that are authorized to connect via SSH?
+
+# deduction
+# source
+# https://www.ssh.com/ssh/authorized_keys/
+# https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+
+~/.ssh/authorized_keys
+
+

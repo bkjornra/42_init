@@ -1,0 +1,48 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    19                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:48:08 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 21:54:38 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# List all services which are started at boot time and name this kind of services
+
+# command
+# systemctl list-unit-files --type=service | grep "enabled" | awk -F'.service' '{print $1}'
+
+accounts-daemon
+anacron
+apache2
+autovt@
+avahi-daemon
+bluetooth
+console-setupcron
+cups-browsed
+cups
+dbus-org.bluez
+dbus-org.freedesktop.Avahi
+dbus-org.freedesktop.ModemManager1
+dbus-org.freedesktop.nm-dispatcher
+getty@
+keyboard-setup
+minissdhp
+ModemManager
+nework-manager
+networking
+NetworkManager-dispatcher
+NetworkManager-wait-online
+NaetworkManager
+pppd-dns
+rsyslog
+ssh
+sshd
+syslog
+systemd-timesyncd
+unattended-upgrades
+
+These are known as daemon which are services/processes that are running in the background.

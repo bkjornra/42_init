@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    23                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:48:08 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 18:51:14 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Explain how connect yourself as new user. (With graphic session and ssh session)
+
+# deduction
+
+Graphical : Put your login and password when asked
+SSH : ssh <user>@<ip> then put password when asked

@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    15                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:46:56 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 21:31:32 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Find the command that kills the background command’s process
+# man kill
+# use ps -ef to check all running processes
+# pkill tail
+
+# command
+
+
+kill PID

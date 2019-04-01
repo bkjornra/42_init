@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    14                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:41:21 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 16:21:53 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Run the ‘tail -f /var/log/syslog‘ command in background
+
+# command 
+# adding the ampersand (&) sign after command is how we can run a process from the background
+# https://www.tecmint.com/run-linux-command-process-in-background-detach-process/
+
+sudo tail -f /var/log/syslog &
+
+

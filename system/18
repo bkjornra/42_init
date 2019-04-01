@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    18                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:47:48 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 21:44:49 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Find the command that kills ssh service
+# systemctl is a systemd utility which is reposible for controlling the systemd 
+# system and service manager (systemd is Linux service manager)
+# https://www.tecmint.com/manage-services-using-systemd-and-systemctl-in-linux/
+
+# command
+
+systemctl stop ssh

@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    16                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:47:19 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 16:41:41 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Find the service which makes it possible to run specific tasks following a regular schedule
+
+# deduction
+# https://code.tutsplus.com/tutorials/scheduling-tasks-with-cron-jobs--net-8800
+
+Use crontab (cron)

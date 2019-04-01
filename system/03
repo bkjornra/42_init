@@ -1,0 +1,18 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/03/17 16:47:03 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 16:03:48 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# What file has to be modified to make it permanent?
+
+# deduction
+# http://ubuntuhandbook.org/index.php/2014/04/change-hostname-ubuntu1404/
+
+/etc/hostname

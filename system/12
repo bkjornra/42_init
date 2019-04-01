@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    12                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:41:46 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 21:31:35 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Figure out the exact size of each folder of /var in a humanly understandable way 
+# followed by the path of it.
+# man du (display disk usage statistics)
+# https://www.tecmint.com/check-linux-disk-usage-of-files-and-directories/
+
+# command 
+
+du -h /var/*
