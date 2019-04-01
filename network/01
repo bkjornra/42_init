@@ -1,0 +1,19 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    01                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:39:00 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 12:50:54 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# See https://sites.ualberta.ca/dept/chemeng/AIX-43/share/man/info/C/a_doc_lib/cmds/aixcmds3/ifconfig.htm
+# Get the list of the network interfaces of the machine without displaying any detail for these interfaces. 
+# Only the list of names.
+
+# command
+
+ifconfig -l

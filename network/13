@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    13                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:44:41 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 22:16:01 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Thanks to the previous question and the reverse DNS find the name of your host
+# use IP address of my system from previous question, look for item in name
+# nslookup 10.112.4.31
+
+e1z2r4p31.42.us.org.

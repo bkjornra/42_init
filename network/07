@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    07                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:46:01 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 13:07:32 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Query an external DNS server on the slash16.org domain name (ie. : google 8.8.8.8)
+# DNS = Domain Name System or phonebook of internet which contains list of IP address
+# (phone numbers)  and domain name (people, places, businesses)
+# http://social.dnsmadeeasy.com/blog/the-mechanics-behind-the-internet-what-is-a-dns-query/
+
+# command
+
+nslookup slash16.org 8.8.8.8

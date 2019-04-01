@@ -1,0 +1,17 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    15                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:43:40 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 22:20:02 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Make the intra.42.fr address reroute to 46.19.122.85
+# deduction
+# Need to modify /etc/hosts by adding this line to make intra.42.fr reroute to 46.19.122.85
+
+46.19.122.85	intra.42.fr

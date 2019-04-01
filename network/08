@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    08                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:45:46 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 21:53:37 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Find the provider of slash16.org
+# deduction
+
+# need to use nslookup slash16.org to look at IP address for slash16.org
+# whois IPaddress will give the provider info
+# whois 54.230.119.88
+
+amazon is the web service provier for slash.org
