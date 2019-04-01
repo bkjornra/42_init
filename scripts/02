@@ -1,0 +1,22 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:48:39 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 21:30:02 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Write a script which delete an ACTIVE user on the VM.
+# note that $0 is the script name, and $1 is the first argument from command line
+# man pgrep, search the process table on the running system, and print the PID
+# that matches the criteria given  
+# see read-while loop at http://www.compciv.org/topics/bash/loops/
+
+#!/bin/bash
+USER=$1
+pgrep -u $USER | while read PID; do sudo kill $PID; done
+sudo userdel $USER

@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    03                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: bkjornra <bkjornra@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/03/26 13:49:00 by bkjornra          #+#    #+#              #
+#    Updated: 2019/03/28 18:56:38 by bkjornra         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+# Write a script to list files by size
+# https://unix.stackexchange.com/questions/53737/how-to-list-all-files-ordered-by-size
+# when testing use sh 03 ~/cadet/init/bjw_init/scripts/ (without $1 we can only check current path)
+#ls -Sp $1 | grep -v "/"
+#ls -lS $1 | grep -v '^d' 
+
+#!/bin/bash
+ls -lS $1 | grep ^-
